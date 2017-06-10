@@ -1,0 +1,24 @@
+<!--
+需要把 <import/> 标签写全 这个标签里面相对 或者绝对路径都是可以的
+-->
+<!--<import src="post-item/post-item-template.wxml"/>-->
+<import src="/pages/post/post-item/post-item-template.wxml"/>
+<view>
+  <swiper vertical="true" indicator-dots="true" autoplay="true" interval="2000" circular="true" indicator-color="#fffde7" indicator-active-color="#ffff00">
+    <swiper-item>
+      <image src="/images/wx.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/vr.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/iqiyi.png"></image>
+    </swiper-item>
+  </swiper>
+
+  <block wx:for="{{posts_key}}" wx:for-item="item" wx:for-index="index">
+  <!-- is = 的是模板的名字-->
+    <template is="postItem" data="{{item}}" />
+  </block>
+
+</view>

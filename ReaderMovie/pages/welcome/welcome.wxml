@@ -1,0 +1,11 @@
+<!--.wxml 是编写小程序的骨架文件-->
+
+<view class="container">
+  <image class="user-avatar" src="/images/avatar/2.png">
+  </image>
+  <text class="user-name">
+    <text style="color:black">hello</text>\nWorld</text>
+  <view class="we-app-view" bindtap="onStartTap">
+    <text class="we-app">开启小程序之旅</text>
+  </view>
+</view>
