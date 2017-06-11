@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#212121",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "阅读详情",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}
