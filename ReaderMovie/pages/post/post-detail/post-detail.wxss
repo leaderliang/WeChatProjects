@@ -103,4 +103,5 @@
   margin-right: 30rpx;
   line-height: 44rpx;
   letter-spacing: 2px;
+  text-align: left;
 }
