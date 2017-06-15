@@ -80,7 +80,7 @@ Page({
     var postId = event.currentTarget.dataset.postitemid;
     console.log("postId=" + postId);
     wx.navigateTo({
-      url: 'post-detail/post-detail',
+      url: 'post-detail/post-detail?id='+ postId,
     })
   }
 })

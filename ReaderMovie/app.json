@@ -1,13 +1,11 @@
 {
   "pages": [
-    "pages/welcome/welcome",
-    "pages/post/post",
-    "pages/post/post-detail/post-detail"
-    
+    "pages/post/post", 
+    "pages/welcome/welcome","pages/post/post-detail/post-detail"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#b3d4db",
-    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#212121",
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "Leaderliang",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",

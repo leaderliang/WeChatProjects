@@ -9,6 +9,7 @@
 }
 
 .hide {
+  /*透明*/
   opacity: 0;
 }
 
@@ -19,6 +20,7 @@
   left: 50%;
   margin-left: -51rpx;
   top: 180rpx;
+  /*半透明*/
   opacity: 0.6;
 }
 
