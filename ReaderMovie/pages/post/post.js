@@ -82,5 +82,24 @@ Page({
     wx.navigateTo({
       url: 'post-detail/post-detail?id='+ postId,
     })
+  },
+
+// currentTarget 和 target 
+// target 指的是当前点击的组件
+// currentTarget 指的是事件最终捕获的组件
+// 在这个函数里，target 指的是 image，而 currentTarget 指的是 swiper
+  // SwiperTap
+  onSwiperTap:function(event){
+    var postId = event.target.dataset.postitemid;
+    wx.navigateTo({
+      url: 'post-detail/post-detail?id=' + postId,
+    })
+  },
+  // SwiperImgTap
+  onSwiperImgTap:function(event){
+    var postId = event.currentTarget.dataset.postitemid;
+    wx.navigateTo({
+      url: 'post-detail/post-detail?id=' + postId,
+    })
   }
 })

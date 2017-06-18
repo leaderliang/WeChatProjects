@@ -1,0 +1,2 @@
+/* movies.wxss 样式嵌套样式,嵌套顺序 movies-(movie-list)-movie-stars*/
+@import "movie-list/movie-list-template.wxss"

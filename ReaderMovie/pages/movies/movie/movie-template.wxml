@@ -1,0 +1,8 @@
+<import src="../stars/stars-template.wxml"/>
+<template name="movieTemplate">
+  <view class="movie-container">
+    <image class="movie-img" src="/images/munaiyi.jpg"></image>
+    <text class="movie-title">新木乃伊</text>
+    <template is="starsTemplate"></template>
+  </view>
+</template>

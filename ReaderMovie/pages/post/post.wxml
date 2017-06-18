@@ -4,21 +4,21 @@
 <!--<import src="post-item/post-item-template.wxml"/>-->
 <import src="/pages/post/post-item/post-item-template.wxml" />
 <view>
-  <swiper vertical="true" indicator-dots="true" autoplay="true" interval="2000" circular="true" indicator-color="#fffde7" indicator-active-color="#ffff00">
+  <swiper catchtap="onSwiperTap" vertical="true" indicator-dots="true" autoplay="true" interval="2000" circular="true" indicator-color="#fffde7" indicator-active-color="#ffff00">
     <swiper-item>
-      <image src="/images/wx.png"></image>
+      <!--可以在 image 里面定义 catchtap 点击事件，postitemid 写成固定接界面，但是不利于拓展 catchtap="onSwiperImgTap" data-postItemId="3" ；所以最终考虑到事件冒泡的机制，则可以把事件写在 Swiper 标签里面-->
+      <image src="/images/wx.png" data-postItemId="3"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/vr.png"></image>
+      <image src="/images/vr.png" data-postItemId="4"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/iqiyi.png"></image>
+      <image src="/images/iqiyi.png" data-postItemId="5"></image>
     </swiper-item>
   </swiper>
 
   <block wx:for="{{posts_key}}" wx:for-item="item" wx:for-index="index" wx:key="">
-    <view catchtap="onPostItemTap" data-postItemId="{{item.postId}}" 
-    >
+    <view catchtap="onPostItemTap" data-postItemId="{{item.postId}}">
       <!-- is = 的是模板的名字-->
       <template is="postItem" data="{{...item}}" />
     </view>

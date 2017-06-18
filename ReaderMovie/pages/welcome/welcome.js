@@ -13,7 +13,8 @@ Page({
     //   url: '../post/post'
     // })
 
-    wx.redirectTo({
+    // wx.redirectTo({
+    wx.switchTab({
       url: '../post/post',
       success: function () {
         console.log("navigateTo success")
@@ -34,7 +35,5 @@ Page({
   onHide: function(){
     console.log(" onHide")
   }
-
-
 
 })
