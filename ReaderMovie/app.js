@@ -4,7 +4,9 @@ App({
         // 音乐是否在播放
         g_isPlayingMusic: false,
         // 哪一个音乐在播放
-        g_currentMusicPostId: null
+        g_currentMusicPostId: null,
+        // baseUrl
+        movieBaseUrl: "https://api.douban.com"
    },
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）

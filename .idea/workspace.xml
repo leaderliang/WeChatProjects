@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="058dde87-5e64-40b1-9ff5-d85ff0da1acd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ReaderMovie/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/app.json" afterPath="$PROJECT_DIR$/ReaderMovie/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/app.js" afterPath="$PROJECT_DIR$/ReaderMovie/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/app.wxss" afterPath="$PROJECT_DIR$/ReaderMovie/app.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/post/post.js" afterPath="$PROJECT_DIR$/ReaderMovie/pages/post/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/post/post.wxml" afterPath="$PROJECT_DIR$/ReaderMovie/pages/post/post.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/welcome/welcome.js" afterPath="$PROJECT_DIR$/ReaderMovie/pages/welcome/welcome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/movie-list/movie-list-template.wxml" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/movie-list/movie-list-template.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/movie/movie-template.wxml" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/movie/movie-template.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/movie/movie-template.wxss" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/movie/movie-template.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.js" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.json" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.wxml" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.wxss" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/movies.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReaderMovie/pages/movies/stars/stars-template.wxml" afterPath="$PROJECT_DIR$/ReaderMovie/pages/movies/stars/stars-template.wxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +28,8 @@
       <file leaf-file-name="app.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReaderMovie/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="288">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -535,6 +540,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="058dde87-5e64-40b1-9ff5-d85ff0da1acd" name="Default" comment="" />
@@ -543,16 +551,15 @@
       <option name="presentableId" value="Default" />
       <updated>1497620041652</updated>
       <workItem from="1497620043114" duration="296000" />
-      <workItem from="1497620410679" duration="1201000" />
+      <workItem from="1497620410679" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1497000" />
+    <option name="totallyTimeSpent" value="1777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="839" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -569,7 +576,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -640,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReaderMovie/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="288">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>

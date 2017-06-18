@@ -1,7 +1,9 @@
 text{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: normal;
+  font-weight:  normal;
+  font-size: 24rpx;
   text-align: center;
+  color: #666;
 }
 swiper{
   width:100%;
